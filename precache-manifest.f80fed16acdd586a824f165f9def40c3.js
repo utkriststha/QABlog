@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cc4dd96242ec37ddce67",
+    "revision": "f452947b1bb5b6234722",
     "url": "/QABlog/static/css/main.cf611600.chunk.css"
   },
   {
-    "revision": "cc4dd96242ec37ddce67",
-    "url": "/QABlog/static/js/main.cc4dd962.chunk.js"
+    "revision": "f452947b1bb5b6234722",
+    "url": "/QABlog/static/js/main.f452947b.chunk.js"
   },
   {
     "revision": "ef720786054a3891a927",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/QABlog/static/js/runtime~main.d51ae54b.js"
   },
   {
-    "revision": "ac4141d0657e0fa6000e1c84c7e49571",
+    "revision": "6aeeca6f510a5f55ba0a27994f194411",
     "url": "/QABlog/index.html"
   }
 ];
