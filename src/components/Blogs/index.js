@@ -38,11 +38,13 @@ function Blogs() {
   const dispatch = useDispatch();
 
   const [blogs, setBlogs] = useState("apple");
+  const [loading, setloading] = useState(true);
 
   useEffect(() => {
     axios
       .get(blogURL)
       .then((response) => {
+        setloading(false);
         dispatch(setBlogData(response.data));
         setBlogs(response.data);
       })
@@ -53,6 +55,7 @@ function Blogs() {
 
   return (
     <div className="blogContainer">
+      {loading ? <h1>Loading...</h1> : " "}
       {blogs.articles && checkAndPostBlogs(blogs)}
       {blogs.totalArticles == 0 && (
         <div className="noResultFound">
