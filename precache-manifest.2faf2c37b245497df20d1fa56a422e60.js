@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/QABlog/static/js/runtime~main.d51ae54b.js"
   },
   {
-    "revision": "6aeeca6f510a5f55ba0a27994f194411",
+    "revision": "86d1e811249f3fb8ec777fa30295da66",
     "url": "/QABlog/index.html"
   }
 ];
