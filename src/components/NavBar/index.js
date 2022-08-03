@@ -23,8 +23,7 @@ const Navbar = () => {
       <nav className="navBar">
         <div className="navBarContainer">
           <div className="navLogo">
-            <spam>QA</spam>
-            Blog
+            <spam>QA</spam>Blog
           </div>
 
           {/* <GoogleLogin
